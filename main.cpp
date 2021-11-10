@@ -14,7 +14,7 @@ int main() {
 
     //D-C-B-A
 
-    linkFirst->addNodeFirst("hola hahahaha");
+   /* linkFirst->addNodeFirst("A");
     linkFirst->addNodeFirst("B");
     linkFirst->addNodeFirst("C");
     linkFirst->addNodeFirst("D");
@@ -24,17 +24,28 @@ int main() {
     linkLast->addNodeLast("B");
     linkLast->addNodeLast("C");
     linkLast->addNodeLast("D");
+    */
     char opc = 0;
     cout <<"1. Agregar al inicio \n"<<"2. Agregar al final \n"<<"3. Buscar nodo \n"<<"4. Buscar puerta \n"<<"5.Insetar antes nodo\n"<<"6.Insertar despues nodo";
     cout<<opc;
+    cin>>opc;
     switch (opc != 7) {
 
-        case 1:
-            const std::string libro = "";
-            cout<<"Digite libro a agregar";
-            cout<<libro;
-
-            linkFirst->addNodeFirst(libro);
+        case 1: {
+            std::string Esfero = "";
+            cout << "Digite el nombre del esfero a agregar";
+            cin >>Esfero;
+            linkFirst->addNodeFirst(Esfero);
+        }
+        break;
+        case 2:
+        {
+            std::string Esfero = "";
+            cout << "Digite el nombre del esfero a agregar";
+            cin >> Esfero;
+            linkFirst->addNodeLast(Esfero);
+        }
+            break;
 
     }
     for (string val: linkFirst->getLinkedList()) {
