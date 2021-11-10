@@ -1,0 +1,3 @@
+C:/Users/Samsung/CLionProjects/objeto/cmake-build-debug/CMakeFiles/objeto.dir
+C:/Users/Samsung/CLionProjects/objeto/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Samsung/CLionProjects/objeto/cmake-build-debug/CMakeFiles/rebuild_cache.dir
